@@ -11,7 +11,6 @@ use App\Http\Controllers\OrderController;
 use App\Http\Controllers\ContactController;
 use App\Http\Controllers\PaymentController;
 use App\Http\Controllers\ProductController;
-use App\Http\Controllers\ActivationController;
 use App\Http\Controllers\PaypalPayementController;
 
 /*
@@ -39,9 +38,6 @@ Auth::routes();
 Route::get('/', [HomeController::class, 'index'])->name('home');
 Route::get('/about-page', [HomeController::class, 'aboutpage'])->name('about');
 
-//activate user account routes 
-Route::get('/activate/{code}', [ActivationController::class, 'activateUserAccount'])->name('user.activate');
-Route::get('/resend/{email}', [ActivationController::class, 'resendActivationCode'])->name('code.resend');
 
 //products routes
 Route::get('/products-page', [ProductController::class,'index'])->name('products-page');

@@ -12,15 +12,12 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-
-
-
-    <title>Compte</title>
+    <title>Admin Account</title>
   </head>
   <body>
     <!-- Navbar Section -->
     <section id="header">
-      <a href="{{route('home')}}"><img src="{{asset('images/logo.jpeg')}}" alt="logo" class="logo" style="width:25%;"></a>
+      <a href="{{route('home')}}"><img src="" alt="" class="logo"></a>      
       <div>
             <ul id="navbar">
                 <li><a class="a" href="{{route('home')}}">Home</a></li>

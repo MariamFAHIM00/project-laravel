@@ -160,7 +160,8 @@ body{
 }
 
 /* Products Section */
-#product1{text-align: center;
+#product1{
+    text-align: center;
 }
 #product1 .pro-container{
     display:flex;

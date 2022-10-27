@@ -12,10 +12,7 @@
     <link rel="stylesheet" href="{{asset('css/app.css')}}" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.9.1/font/bootstrap-icons.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.4/css/all.css">
-
-
-
-    <title>Compte</title>
+    <title>Account</title>
   </head>
   <body>
     <!-- Navbar Section -->
